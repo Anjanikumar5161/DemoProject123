@@ -23,7 +23,9 @@ public class Demo2{
 		driver.findElement(By.id("username")).sendKeys("VTIN31");
 		driver.findElement(By.id("password")).sendKeys("Anjnani@123");
 		driver.findElement(By.className("login-signin")).click();
-
+        driver.close();
+        driver.quit();
+		
 	}
 
 }
